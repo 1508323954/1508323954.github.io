@@ -86,10 +86,12 @@
 <meta property="og:site_name" content="xuyao&#39;s blogs博客">
 <meta property="og:description" content="搭建hexo环境什么是hexoHexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-17T02:27:53.135Z">
+<meta property="og:image" content="http://pxyg6lhcp.bkt.clouddn.com/hexo%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
+<meta property="og:updated_time" content="2019-09-17T03:29:41.875Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo写博客部署到github pages上">
 <meta name="twitter:description" content="搭建hexo环境什么是hexoHexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文">
+<meta name="twitter:image" content="http://pxyg6lhcp.bkt.clouddn.com/hexo%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png">
 
 
 
@@ -352,12 +354,12 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /d/Workspaces/hexo/</span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
 
 <p>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图：</p>
-<p><em>此处应该有截图。。。</em></p>
+<p><img src="http://pxyg6lhcp.bkt.clouddn.com/hexo%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png" alt></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g <span class="comment"># 生成</span></span><br><span class="line">$ hexo s <span class="comment"># 启动服务</span></span><br></pre></td></tr></table></figure>
 
-<p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的：</p>
+<p>执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github上去的：</p>
 <p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到内容，</p>
-<p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是这个样子：</p>
+<p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是下面这样：</p>
 <p>目前我安装所用的本地环境如下：(可以通过hexo -v查看)</p>
 <p>hexo: 3.9.0<br>hexo-cli: 2.0.0<br>os: Windows_NT 10.0.17763 win32 x64<br>http_parser: 2.8.0<br>node: 10.16.3<br>v8: 6.8.275.32-node.54<br>uv: 1.28.0<br>zlib: 1.2.11<br>brotli: 1.0.7<br>ares: 1.15.0<br>modules: 64<br>nghttp2: 1.39.2<br>napi: 4<br>openssl: 1.1.1c<br>icu: 64.2<br>unicode: 12.1<br>cldr: 35.1<br>tz: 2019a</p>
 <p>hexo 常用命令 ：</p>
